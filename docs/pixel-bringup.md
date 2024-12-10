@@ -13,7 +13,7 @@ All commands that accept stock system images, with the exception of comparison c
 In order to extract proprietary files and other data, you need a copy of the stock ROM for your device. Download the latest factory images package for your device, replacing `raven` with your device's codename:
 
 ```bash
-adevtool download ~/stock_images -d raven
+adevtool download ~/stock_images -b ap4a.241205.013 -d komodo
 ```
 
 The factory images ZIP will be saved in `~/stock_images`. Full OTA packages are not currently supported.
@@ -44,7 +44,7 @@ You can optionally follow the modular format of existing configs in config/pixel
 To find missing files, properties, and overlays automatically, adevtool needs a reference build of AOSP to compare with the stock ROM. Navigate to the root of your AOSP tree and generate a vendor module to prepare for this:
 
 ```bash
-adevtool generate-prep -s ~/stock_images -b sq1d.211205.017 tools/adevtool/config/pixel/raven.yml
+sudo adevtool generate-prep -s ~/stock_images -b ap4a.241205.013 tools/adevtool/config/pixel/komodo.yml
 ```
 
 Replace `~/stock_images` with the directory containing your factory images package, `sq1d.211205.017` with the build ID, and `raven` with your device's codename. We recommend keeping a copy of adevtool at `tools/adevtool` so the config is easy to find, but you should also adjust the path if your configs are located somewhere else.
@@ -54,7 +54,7 @@ Replace `~/stock_images` with the directory containing your factory images packa
 After generating the vendor module, build the ROM to get a reference build. Make sure to do a `user` build using the device codename as it appears on the stock ROM (i.e. no `aosp_` prefix; you can build with a different device name and variant later if you want, but the reference build has strict requirements):
 
 ```bash
-lunch raven-user
+lunch komodo-ap4a-user
 m installclean
 m
 ```
@@ -70,7 +70,7 @@ Even when successful, the reference build **will not boot.** That's normal; this
 Use the reference build to create a state file, which contains all necessary information from the build:
 
 ```bash
-adevtool collect-state ~/raven.json -d raven
+sudo adevtool collect-state ~/komodo.json -d komodo
 ```
 
 Once you have a state file, the reference build is no longer necessary, so you can safely discard it.
@@ -80,7 +80,7 @@ Once you have a state file, the reference build is no longer necessary, so you c
 Some privileged apps have special SELinux domains assigned by signing certificate, and the default AOSP certificates don't match. Update the certificates:
 
 ```bash
-adevtool fix-certs -d raven -s ~/stock_images -b sq1d.211205.017 -p hardware/google/pixel-sepolicy device/google/gs101-sepolicy
+sudo adevtool fix-certs -d komodo -s ~/stock_images -b ap4a.241205.013 -p hardware/google/pixel-sepolicy device/google/zumapro-sepolicy
 ```
 
 Pass the list of `sepolicy_dirs` in your config as arguments after `-p`.
@@ -92,7 +92,7 @@ This only needs to be done once as it modifies SELinux policies to update certif
 Now that you have a reference state file, generate the actual vendor module:
 
 ```bash
-adevtool generate-all -s ~/stock_images -c ~/raven.json -b sq1d.211205.017 tools/adevtool/config/pixel/raven.yml
+sudo adevtool generate-all -s ~/stock_images -c ~/komodo.json -b ap4a.241205.013 tools/adevtool/config/pixel/komodo.yml
 ```
 
 ## 8. Build the actual ROM
@@ -100,7 +100,7 @@ adevtool generate-all -s ~/stock_images -c ~/raven.json -b sq1d.211205.017 tools
 You can now do an actual ROM build. We recommend doing an engineering build (`eng`) for easier debugging:
 
 ```bash
-lunch raven-user
+lunch komodo-ap4a-user
 m installclean
 m
 ```
