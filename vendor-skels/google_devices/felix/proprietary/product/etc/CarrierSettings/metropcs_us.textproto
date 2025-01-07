@@ -1,5 +1,5 @@
 canonical_name: "metropcs_us"
-version: 62000000034
+version: 62000000035
 apns {
   apn {
     name: "MetroPCS Tethering"
@@ -700,6 +700,10 @@ configs {
     bool_value: true
   }
   config {
+    key: "vonr_on_by_default_bool"
+    bool_value: false
+  }
+  config {
     key: "wfc_carrier_name_override_by_pnn_bool"
     bool_value: true
   }
@@ -744,5 +748,5 @@ vendor_configs {
   }
 }
 last_updated {
-  seconds: 1721295332
+  seconds: 1731561293
 }

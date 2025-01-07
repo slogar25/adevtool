@@ -1,5 +1,5 @@
 canonical_name: "assurance_us"
-version: 62000000028
+version: 62000000029
 apns {
   apn {
     name: "Tether"
@@ -688,6 +688,10 @@ configs {
     bool_value: true
   }
   config {
+    key: "vonr_on_by_default_bool"
+    bool_value: false
+  }
+  config {
     key: "wfc_carrier_name_override_by_pnn_bool"
     bool_value: true
   }
@@ -732,5 +736,5 @@ vendor_configs {
   }
 }
 last_updated {
-  seconds: 1721295356
+  seconds: 1731561306
 }

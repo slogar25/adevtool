@@ -26,6 +26,7 @@
   <bool name="config_enableFullscreenUserSwitcher">true</bool>
   <bool name="config_enableLockScreenCustomClocks">false</bool>
   <bool name="config_enableVisualQueryAttentionDetection">true</bool>
+  <bool name="config_goToHomeFromOccludedApps">true</bool>
   <bool name="config_hspa_data_distinguishable">true</bool>
   <bool name="config_letterboxIsReachabilityEducationEnabled">true</bool>
   <bool name="config_letterboxIsRestartDialogEnabled">true</bool>
