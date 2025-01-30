@@ -13,7 +13,7 @@ All commands that accept stock system images, with the exception of comparison c
 In order to extract proprietary files and other data, you need a copy of the stock ROM for your device. Download the latest factory images package for your device, replacing `raven` with your device's codename:
 
 ```bash
-adevtool download ~/stock_images -b ap4a.250105.002.B1 -d komodo
+adevtool download ~/stock_images -b ap4a.250105.002.A1 -d komodo
 ```
 
 The factory images ZIP will be saved in `~/stock_images`. Full OTA packages are not currently supported.
@@ -24,15 +24,15 @@ Create a simple YAML config file to get started with your device. The [example c
 
 ```yaml
 device:
-  name: raven
+  name: komodo
   vendor: google_devices
 
 platform:
-  product_makefile: device/google/raviole/aosp_raven.mk
+  product_makefile: device/google/komodo/aosp_komodo.mk
 
   sepolicy_dirs:
     - hardware/google/pixel-sepolicy
-    - device/google/gs101-sepolicy
+    - device/google/zumapro-sepolicy
 ```
 
 Replace `product_makefile` with the path to your device's product makefile (including the `aosp_` prefix). All Pixel devices use `hardware/google/pixel-sepolicy`, but check your device tree for the device-specific SELinux policies and replace the path accordingly. Most Qualcomm Pixel devices follow a format similar to `device/google/redbull-sepolicy`.
@@ -44,7 +44,7 @@ You can optionally follow the modular format of existing configs in config/pixel
 To find missing files, properties, and overlays automatically, adevtool needs a reference build of AOSP to compare with the stock ROM. Navigate to the root of your AOSP tree and generate a vendor module to prepare for this:
 
 ```bash
-sudo adevtool generate-prep -s ~/stock_images -b ap4a.250105.002.B1 tools/adevtool/config/pixel/komodo.yml
+sudo adevtool generate-prep -s ~/stock_images -b ap4a.250105.002.A1 tools/adevtool/config/pixel/komodo.yml
 ```
 
 Replace `~/stock_images` with the directory containing your factory images package, `sq1d.211205.017` with the build ID, and `raven` with your device's codename. We recommend keeping a copy of adevtool at `tools/adevtool` so the config is easy to find, but you should also adjust the path if your configs are located somewhere else.
@@ -80,7 +80,7 @@ Once you have a state file, the reference build is no longer necessary, so you c
 Some privileged apps have special SELinux domains assigned by signing certificate, and the default AOSP certificates don't match. Update the certificates:
 
 ```bash
-sudo adevtool fix-certs -d komodo -s ~/stock_images -b ap4a.250105.002.B1 -p hardware/google/pixel-sepolicy device/google/zumapro-sepolicy
+sudo adevtool fix-certs -d komodo -s ~/stock_images -b ap4a.250105.002.A1 -p hardware/google/pixel-sepolicy device/google/zumapro-sepolicy
 ```
 
 Pass the list of `sepolicy_dirs` in your config as arguments after `-p`.
@@ -92,7 +92,7 @@ This only needs to be done once as it modifies SELinux policies to update certif
 Now that you have a reference state file, generate the actual vendor module:
 
 ```bash
-sudo adevtool generate-all -s ~/stock_images -c ~/komodo.json -b ap4a.250105.002.B1 tools/adevtool/config/pixel/komodo.yml
+sudo adevtool generate-all -s ~/stock_images -c ~/komodo.json -b ap4a.250105.002.A1 tools/adevtool/config/pixel/komodo.yml
 ```
 
 ## 8. Build the actual ROM
