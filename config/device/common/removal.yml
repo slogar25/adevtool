@@ -10,27 +10,27 @@ filters:
       # Debug
       - ro.adb.secure
       # intentionally removed, see device/google/zuma commit
-      - ro.arm64.memtag.bootctl_supported
-      - persist.sys.sf.native_mode
-      - persist.vendor.usb.displayport.enabled
+#      - ro.arm64.memtag.bootctl_supported
+#      - persist.sys.sf.native_mode
+#      - persist.vendor.usb.displayport.enabled
     prefix:
       # these props disable memory tagging for some of system processes
-      - persist.arm64.memtag.app.
-      - persist.arm64.memtag.system_server
+#      - persist.arm64.memtag.app.
+#      - persist.arm64.memtag.system_server
       # APEX
       - ro.apex.updatable
       # Debug
       - log.tag.
       # Default alarm
-      - ro.config.alarm_alert
+#      - ro.config.alarm_alert
       # Google Assistant
       - ro.opa.eligible_device
-      - ro.hotword.detection_service_required
+#      - ro.hotword.detection_service_required
       # Google IME
       - ro.com.google.ime
       # SetupWizard
-      - ro.setupwizard.
-      - setupwizard.
+#      - ro.setupwizard.
+#      - setupwizard.
       # Storage manager
       - ro.storage_manager.
       # Theme
@@ -40,7 +40,7 @@ filters:
       # disable llkd
       - ro.llkd.enable
       # irrelevant build region
-      - ro.vendor.config.build_carrier
+#      - ro.vendor.config.build_carrier
       # irrelevant keyguard prop
       - keyguard.no_require_sim
       # mobile data
@@ -48,15 +48,15 @@ filters:
       # privapps
       - ro.control_privapp_permissions
       # unused carrier setup page
-      - ro.carriersetup.vzw_consent_page
+#      - ro.carriersetup.vzw_consent_page
       # unused gms props
       - ro.atrace.core.services
       - ro.com.google.clientidbase
       - ro.error.receiver.system.apps
       # unused ssrestart debug prop
-      - vendor.debug.ssrdump.type
+#      - vendor.debug.ssrdump.type
       # we dont ship system_other
-      - ro.cp_system_other_odex
+#      - ro.cp_system_other_odex
       # we dont want this debug trash on sf
       - debug.sf.enable_egl_image_tracker
 

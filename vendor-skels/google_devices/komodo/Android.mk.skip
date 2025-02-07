@@ -17,7 +17,10 @@ LOCAL_MODULE_PATH := $(TARGET_OUT_VENDOR_ETC)
 LOCAL_MODULE_STEM := .device_symlinks
 LOCAL_SRC_FILES := Android.mk
 LOCAL_POST_INSTALL_CMD := \
+    mkdir -p $(PRODUCT_OUT)/product/priv-app/DMService/lib/arm64; \
     mkdir -p $(PRODUCT_OUT)/system_ext/priv-app/PixelDisplayService/lib/arm64; \
+    ln -sf /product/lib64/libdmengine.so $(PRODUCT_OUT)/product/priv-app/DMService/lib/arm64/libdmengine.so; \
+    ln -sf /product/lib64/libdmjavaplugin.so $(PRODUCT_OUT)/product/priv-app/DMService/lib/arm64/libdmjavaplugin.so; \
     ln -sf /system_ext/lib64/libpixeldisplaymanager_jni.so $(PRODUCT_OUT)/system_ext/priv-app/PixelDisplayService/lib/arm64/libpixeldisplaymanager_jni.so;
 include $(BUILD_PREBUILT)
 

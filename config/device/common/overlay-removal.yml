@@ -3,14 +3,14 @@ filters:
     prefix:
       - DockSetup_
       # these overlays are for packages that are not shipped
-      - DeviceDiagnostics
-      - Flipendo
-      - GoogleDeviceLockControllerOverlay
-      - GoogleHealthConnectOverlay
+#      - DeviceDiagnostics
+#      - Flipendo
+#      - GoogleDeviceLockControllerOverlay
+#      - GoogleHealthConnectOverlay
       - HbmSVManager__auto_generated_rro_
-      - PixelSetupWizardOverlay
-      - PixelSupport
-      - Scone
+#      - PixelSetupWizardOverlay
+#      - PixelSupport
+#      - Scone
       - TipsOverlay
 
   overlay_keys:
@@ -35,11 +35,11 @@ filters:
       - com.google.android.cellbroadcastreceiver/CellBroadcastCustomization
       - com.google.android.cellbroadcastservice/CellBroadcastServiceCustomization
       - com.google.android.documentsui/DocumentsUICustomization
-      - com.google.android.avatarpicker/
+#      - com.google.android.avatarpicker/
       # Unused SIM app stuff
       - com.android.simappdialog
       # Unwanted Permissions link
-      - com.android.permissioncontroller
+#      - com.android.permissioncontroller
       # Unwanted icons
       - android:drawable/ic_doc_
       # Useless defaults
@@ -48,11 +48,11 @@ filters:
       - com.android.managedprovisioning
       - com.android.systemui:string/config_dock_setup_
       # google media apexs
-      - com.google.android.providers.media.module
-      - com.google.android.storagemanager
+#      - com.google.android.providers.media.module
+#      - com.google.android.storagemanager
       - com.google.android.apps.nexuslauncher
       # unused oma-dm stuff
-      - com.android.omadm.service
+#      - com.android.omadm.service
     substring:
       - branded_vpn
       # "Face unlock" is not shipped
@@ -77,7 +77,7 @@ filters:
       - android:bool/config_pinnerCameraApp
       - android:bool/config_pinnerHomeApp
       - android:bool/config_profcollectReportUploaderEnabled
-      - android:bool/config_repairModeSupported
+#      - android:bool/config_repairModeSupported
       - android:bool/config_sendPackageName
       - android:bool/config_showGesturalNavigationHints
       - android:bool/config_smart_battery_available
@@ -269,7 +269,7 @@ filters:
       - com.android.phone:string/platform_carrier_config_package
       - com.android.phone:string/platform_number_verification_package
       - com.android.providers.contacts:string/metadata_sync_pacakge
-      - com.android.providers.telephony:string/apn_source_service
+#      - com.android.providers.telephony:string/apn_source_service
       - com.android.server.telecom:string/call_diagnostic_service_package_name
       - com.android.server.telecom:string/dialer_default_class
       - com.android.settings:bool/config_advanced_vpn_enabled
@@ -291,7 +291,7 @@ filters:
       - com.android.settings:string-array/display_over_apps_permission_change_exempt
       - com.android.settings:string-array/slice_allowlist_package_names
       # "Google Assistant"
-      - com.android.systemui.accessibility.accessibilitymenu:string/assistant_utterance
+#      - com.android.systemui.accessibility.accessibilitymenu:string/assistant_utterance
       - com.android.systemui:bool/config_pixel_vpn_enabled
       - com.android.systemui:bool/config_touch_context_enabled
       - com.android.systemui:bool/config_wlc_support_enabled

@@ -1,7 +1,45 @@
+com.android.systemui.accessibility.accessibilitymenu:string/assistant_utterance = Google Assistant
+com.google.android.avatarpicker/AvatarPickerGoogle:string/app_name = Google Pixel Avatar Picker
+com.google.android.avatarpicker/AvatarPickerGoogle:string/default_font_family = google-sans
+com.google.android.avatarpicker/AvatarPickerGoogle:string/desc_ProfileIcons1 = Playful illustration of two dark-green semi-circles on a light green background
+com.google.android.avatarpicker/AvatarPickerGoogle:string/desc_ProfileIcons10 = Playful illustration of an orange butterfly on a yellow background
+com.google.android.avatarpicker/AvatarPickerGoogle:string/desc_ProfileIcons11 = Black nose shape with rounded edges on a dark gray background
+com.google.android.avatarpicker/AvatarPickerGoogle:string/desc_ProfileIcons12 = Black clover shape with rounded edges on a light gray background
+com.google.android.avatarpicker/AvatarPickerGoogle:string/desc_ProfileIcons13 = Light purple wiggly circle on a dark purple background
+com.google.android.avatarpicker/AvatarPickerGoogle:string/desc_ProfileIcons14 = Light blue clover shape with rounded edges on an orange background
+com.google.android.avatarpicker/AvatarPickerGoogle:string/desc_ProfileIcons15 = Light green hexagon with rounded edges on a dark green background
+com.google.android.avatarpicker/AvatarPickerGoogle:string/desc_ProfileIcons16 = Black diamond shape with rounded edges on a light gray background
+com.google.android.avatarpicker/AvatarPickerGoogle:string/desc_ProfileIcons17 = Playful illustration of an orange leaf on a yellow background
+com.google.android.avatarpicker/AvatarPickerGoogle:string/desc_ProfileIcons18 = Playful illustration of the planet Saturn on a peach background
+com.google.android.avatarpicker/AvatarPickerGoogle:string/desc_ProfileIcons19 = Playful illustration of white and orange stars and circles in a celestial pattern on a black background
+com.google.android.avatarpicker/AvatarPickerGoogle:string/desc_ProfileIcons2 = Abstract illustration of black and white intersecting cylinders
+com.google.android.avatarpicker/AvatarPickerGoogle:string/desc_ProfileIcons20 = Playful illustration of a dog with blue ears and a white face on a yellow background
+com.google.android.avatarpicker/AvatarPickerGoogle:string/desc_ProfileIcons21 = Playful illustration of a white dove flying with an olive branch on a purple background
+com.google.android.avatarpicker/AvatarPickerGoogle:string/desc_ProfileIcons22 = Playful illustration of a dog with black ears and a white face on a blue background
+com.google.android.avatarpicker/AvatarPickerGoogle:string/desc_ProfileIcons23 = Playful illustration of a pink flower with green leaves on a cream background
+com.google.android.avatarpicker/AvatarPickerGoogle:string/desc_ProfileIcons24 = Abstract illustration of six blue cylinders on a red background
+com.google.android.avatarpicker/AvatarPickerGoogle:string/desc_ProfileIcons3 = Abstract illustration of a light blue clover shape on a dark blue background
+com.google.android.avatarpicker/AvatarPickerGoogle:string/desc_ProfileIcons4 = Abstract illustration of two pink, three-dimensional triangles
+com.google.android.avatarpicker/AvatarPickerGoogle:string/desc_ProfileIcons5 = Abstract illustration of teal layers on a yellow background
+com.google.android.avatarpicker/AvatarPickerGoogle:string/desc_ProfileIcons6 = Abstract illustration of purple rocks on a green background
+com.google.android.avatarpicker/AvatarPickerGoogle:string/desc_ProfileIcons7 = Playful illustration of five white, geometric flowers on an orange background
+com.google.android.avatarpicker/AvatarPickerGoogle:string/desc_ProfileIcons8 = Playful illustration of three blueberries on a pink background
+com.google.android.avatarpicker/AvatarPickerGoogle:string/desc_ProfileIcons9 = Playful illustration of a lemon with a black leaf on a green background
+com.android.omadm.service:string-array/dm_account_info = Sprint, sprint, https://oma.ssprov.sprint.com/oma, URI, 443, , Sprint, HMAC, SPRINT, MTIzNDU=, MEID, SPRINT, MTIzNDU=, oma.ssprov.sprint.com, 80,VerizonLTE, com.vzwdmserver, https://4g2.vzwdm.com/, 1, 443, , VzWDMServer, DIGEST, 0000000000000000, abc123, e0e5e7eaebeb, ebe8efeeecec, 123abc, ,,w7, msvpcdp, https://mdm.uscc.net/southbound-connector/dm, URI, 443, , USC_DM_Server, DIGEST, 0000000000000000, dynamic, , , dynamic, ,
+com.android.omadm.service:bool/config_omadm_metrics_enabled = true
+com.android.omadm.service:string/config_devinfo_language = English
+com.android.omadm.service:string/config_devinfo_manufacturer = GOOGLE
+com.android.omadm.service:string/config_omadm_metrics_app_package = com.google.android.apps.carrier.log
+com.android.omadm.service:string/config_omadm_metrics_class_name = com.google.android.apps.carrier.log.LogDataReceiver
+com.android.omadm.service:string/config_omadm_metrics_extra_log_bytes = com.google.android.apps.carrier.log.extra.LOG_BYTES
+com.android.omadm.service:string/config_omadm_metrics_extra_log_source = com.google.android.apps.carrier.log.extra.LOG_SOURCE
+com.android.omadm.service:string/config_omadm_metrics_intent_action = com.google.android.apps.carrier.log.action.LOG
+com.android.devicediagnostics:bool/config_hspa_data_distinguishable = true
 com.google.euiccpixel:string-array/config_state_busy_intent_list = intent:#Intent;action=com.google.android.gms.dck.action.SE_STATE_CHANGED;i.com.google.android.gms.dck.extra.SE_STATE=1;end,intent:#Intent;action=com.qorvo.uwb.action.SE_STATE_CHANGED;i.com.qorvo.uwb.extra.SE_STATE=1;end
 com.google.euiccpixel:string-array/config_state_ready_intent_list = intent:#Intent;action=com.google.android.gms.dck.action.SE_STATE_CHANGED;i.com.google.android.gms.dck.extra.SE_STATE=0;end,intent:#Intent;action=com.qorvo.uwb.action.SE_STATE_CHANGED;i.com.qorvo.uwb.extra.SE_STATE=0;end
 com.google.euiccpixel:string-array/config_state_request_intent_list = intent:#Intent;action=com.google.android.gms.dck.action.SE_STATE_REQUEST;end,intent:#Intent;action=com.qorvo.uwb.action.SE_STATE_REQUEST;end
 com.google.euiccpixel:string-array/config_state_request_permission_list = com.google.android.gms.dck.permission.DIGITAL_KEY_PRIVILEGED,com.qorvo.uwb.permission.SE_STATE_REQUEST
+com.google.android.flipendo:bool/config_hspa_data_distinguishable = true
 android:string-array/face_error_vendor = Certificate expired,Sensor temporarily disabled,Calibration error,Face unlock unavailable. Phone is too hot.,Face unlock needs to be set up again
 android:string-array/vendor_required_attestation_certificates = -----BEGIN CERTIFICATE----- MIIFYDCCA0igAwIBAgIJAOj6GWMU0voYMA0GCSqGSIb3DQEBCwUAMBsxGTAXBgNV BAUTEGY5MjAwOWU4NTNiNmIwNDUwHhcNMTYwNTI2MTYyODUyWhcNMjYwNTI0MTYy ODUyWjAbMRkwFwYDVQQFExBmOTIwMDllODUzYjZiMDQ1MIICIjANBgkqhkiG9w0B AQEFAAOCAg8AMIICCgKCAgEAr7bHgiuxpwHsK7Qui8xUFmOr75gvMsd/dTEDDJdS Sxtf6An7xyqpRR90PL2abxM1dEqlXnf2tqw1Ne4Xwl5jlRfdnJLmN0pTy/4lj4/7 tv0Sk3iiKkypnEUtR6WfMgH0QZfKHM1+di+y9TFRtv6y//0rb+T+W8a9nsNL/ggj nar86461qO0rOs2cXjp3kOG1FEJ5MVmFmBGtnrKpa73XpXyTqRxB/M0n1n/W9nGq C4FSYa04T6N5RIZGBN2z2MT5IKGbFlbC8UrW0DxW7AYImQQcHtGl/m00QLVWutHQ oVJYnFPlXTcHYvASLu+RhhsbDmxMgJJ0mcDpvsC4PjvB+TxywElgS70vE0XmLD+O JtvsBslHZvPBKCOdT0MS+tgSOIfga+z1Z1g7+DVagf7quvmag8jfPioyKvxnK/Eg sTUVi2ghzq8wm27ud/mIM7AY2qEORR8Go3TVB4HzWQgpZrt3i5MIlCaY504LzSRi igHCzAPlHws+W0rB5N+er5/2pJKnfBSDiCiFAVtCLOZ7gLiMm0jhO2B6tUXHI/+M RPjy02i59lINMRRev56GKtcd9qO/0kUJWdZTdA2XoS82ixPvZtXQpUpuL12ab+9E aDK8Z4RHJYYfCT3Q5vNAXaiWQ+8PTWm2QgBR/bkwSWc+NpUFgNPN9PvQi8WEg5Um AGMCAwEAAaOBpjCBozAdBgNVHQ4EFgQUNmHhAHyIBQlRi0RsR/8aTMnqTxIwHwYD VR0jBBgwFoAUNmHhAHyIBQlRi0RsR/8aTMnqTxIwDwYDVR0TAQH/BAUwAwEB/zAO BgNVHQ8BAf8EBAMCAYYwQAYDVR0fBDkwNzA1oDOgMYYvaHR0cHM6Ly9hbmRyb2lk Lmdvb2dsZWFwaXMuY29tL2F0dGVzdGF0aW9uL2NybC8wDQYJKoZIhvcNAQELBQAD ggIBACDIw41L3KlXG0aMiS//cqrG+EShHUGo8HNsw30W1kJtjn6UBwRM6jnmiwfB Pb8VA91chb2vssAtX2zbTvqBJ9+LBPGCdw/E53Rbf86qhxKaiAHOjpvAy5Y3m00m qC0w/Zwvju1twb4vhLaJ5NkUJYsUS7rmJKHHBnETLi8GFqiEsqTWpG/6ibYCv7rY DBJDcR9W62BW9jfIoBQcxUCUJouMPH25lLNcDc1ssqvC2v7iUgI9LeoM1sNovqPm QUiG9rHli1vXxzCyaMTjwftkJLkf6724DFhuKug2jITV0QkXvaJWF4nUaHOTNA4u JU9WDvZLI1j83A+/xnAJUucIv/zGJ1AMH2boHqF8CY16LpsYgBt6tKxxWH00XcyD CdW2KlBCeqbQPcsFmWyWugxdcekhYsAWyoSf818NUsZdBWBaR/OukXrNLfkQ79Iy ZohZbvabO/X+MVT3rriAoKc8oE2Uws6DF+60PV7/WIPjNvXySdqspImSN78mflxD qwLqRBYkA3I75qppLGG9rp7UCdRjxMl8ZDBld+7yvHVgt1cVzJx9xnyGCC23Uaic MDSXYrB4I4WHXPGjxhZuCuPBLTdOLU8YRvMYdEvYebWHMpvwGCF6bAx3JBpIeOQ1 wDB5y0USicV3YgYGmi+NZfhA4URSh77Yd6uuJOJENRaNVTzk -----END CERTIFICATE-----,-----BEGIN CERTIFICATE----- MIIFHDCCAwSgAwIBAgIJANUP8luj8tazMA0GCSqGSIb3DQEBCwUAMBsxGTAXBgNV BAUTEGY5MjAwOWU4NTNiNmIwNDUwHhcNMTkxMTIyMjAzNzU4WhcNMzQxMTE4MjAz NzU4WjAbMRkwFwYDVQQFExBmOTIwMDllODUzYjZiMDQ1MIICIjANBgkqhkiG9w0B AQEFAAOCAg8AMIICCgKCAgEAr7bHgiuxpwHsK7Qui8xUFmOr75gvMsd/dTEDDJdS Sxtf6An7xyqpRR90PL2abxM1dEqlXnf2tqw1Ne4Xwl5jlRfdnJLmN0pTy/4lj4/7 tv0Sk3iiKkypnEUtR6WfMgH0QZfKHM1+di+y9TFRtv6y//0rb+T+W8a9nsNL/ggj nar86461qO0rOs2cXjp3kOG1FEJ5MVmFmBGtnrKpa73XpXyTqRxB/M0n1n/W9nGq C4FSYa04T6N5RIZGBN2z2MT5IKGbFlbC8UrW0DxW7AYImQQcHtGl/m00QLVWutHQ oVJYnFPlXTcHYvASLu+RhhsbDmxMgJJ0mcDpvsC4PjvB+TxywElgS70vE0XmLD+O JtvsBslHZvPBKCOdT0MS+tgSOIfga+z1Z1g7+DVagf7quvmag8jfPioyKvxnK/Eg sTUVi2ghzq8wm27ud/mIM7AY2qEORR8Go3TVB4HzWQgpZrt3i5MIlCaY504LzSRi igHCzAPlHws+W0rB5N+er5/2pJKnfBSDiCiFAVtCLOZ7gLiMm0jhO2B6tUXHI/+M RPjy02i59lINMRRev56GKtcd9qO/0kUJWdZTdA2XoS82ixPvZtXQpUpuL12ab+9E aDK8Z4RHJYYfCT3Q5vNAXaiWQ+8PTWm2QgBR/bkwSWc+NpUFgNPN9PvQi8WEg5Um AGMCAwEAAaNjMGEwHQYDVR0OBBYEFDZh4QB8iAUJUYtEbEf/GkzJ6k8SMB8GA1Ud IwQYMBaAFDZh4QB8iAUJUYtEbEf/GkzJ6k8SMA8GA1UdEwEB/wQFMAMBAf8wDgYD VR0PAQH/BAQDAgIEMA0GCSqGSIb3DQEBCwUAA4ICAQBOMaBc8oumXb2voc7XCWnu XKhBBK3e2KMGz39t7lA3XXRe2ZLLAkLM5y3J7tURkf5a1SutfdOyXAmeE6SRo83U h6WszodmMkxK5GM4JGrnt4pBisu5igXEydaW7qq2CdC6DOGjG+mEkN8/TA6p3cno L/sPyz6evdjLlSeJ8rFBH6xWyIZCbrcpYEJzXaUOEaxxXxgYz5/cTiVKN2M1G2ok QBUIYSY6bjEL4aUN5cfo7ogP3UvliEo3Eo0YgwuzR2v0KR6C1cZqZJSTnghIC/vA D32KdNQ+c3N+vl2OTsUVMC1GiWkngNx1OO1+kXW+YTnnTUOtOIswUP/Vqd5SYgAI mMAfY8U9/iIgkQj6T2W6FsScy94IN9fFhE1UtzmLoBIuUFsVXJMTz+Jucth+IqoW Fua9v1R93/k98p41pjtFX+H8DslVgfP097vju4KDlqN64xV1grw3ZLl4CiOe/A91 oeLm2UHOq6wn3esB4r2EIQKb6jTVGu5sYCcdWpXr0AUVqcABPdgL+H7qJguBw09o jm6xNIrw2OocrDKsudk/okr/AwqEyPKw9WnMlQgLIKw1rODG2NvU9oR3GVGdMkUB ZutL8VuFkERQGt6vQ2OCw0sV47VMkuYbacK/xyZFiRcrPJPb41zgbQj9XAEyLKCH ex0SdDrx+tWUDqG8At2JHA== -----END CERTIFICATE-----,-----BEGIN CERTIFICATE----- MIIFHDCCAwSgAwIBAgIJAMNrfES5rhgxMA0GCSqGSIb3DQEBCwUAMBsxGTAXBgNV BAUTEGY5MjAwOWU4NTNiNmIwNDUwHhcNMjExMTE3MjMxMDQyWhcNMzYxMTEzMjMx MDQyWjAbMRkwFwYDVQQFExBmOTIwMDllODUzYjZiMDQ1MIICIjANBgkqhkiG9w0B AQEFAAOCAg8AMIICCgKCAgEAr7bHgiuxpwHsK7Qui8xUFmOr75gvMsd/dTEDDJdS Sxtf6An7xyqpRR90PL2abxM1dEqlXnf2tqw1Ne4Xwl5jlRfdnJLmN0pTy/4lj4/7 tv0Sk3iiKkypnEUtR6WfMgH0QZfKHM1+di+y9TFRtv6y//0rb+T+W8a9nsNL/ggj nar86461qO0rOs2cXjp3kOG1FEJ5MVmFmBGtnrKpa73XpXyTqRxB/M0n1n/W9nGq C4FSYa04T6N5RIZGBN2z2MT5IKGbFlbC8UrW0DxW7AYImQQcHtGl/m00QLVWutHQ oVJYnFPlXTcHYvASLu+RhhsbDmxMgJJ0mcDpvsC4PjvB+TxywElgS70vE0XmLD+O JtvsBslHZvPBKCOdT0MS+tgSOIfga+z1Z1g7+DVagf7quvmag8jfPioyKvxnK/Eg sTUVi2ghzq8wm27ud/mIM7AY2qEORR8Go3TVB4HzWQgpZrt3i5MIlCaY504LzSRi igHCzAPlHws+W0rB5N+er5/2pJKnfBSDiCiFAVtCLOZ7gLiMm0jhO2B6tUXHI/+M RPjy02i59lINMRRev56GKtcd9qO/0kUJWdZTdA2XoS82ixPvZtXQpUpuL12ab+9E aDK8Z4RHJYYfCT3Q5vNAXaiWQ+8PTWm2QgBR/bkwSWc+NpUFgNPN9PvQi8WEg5Um AGMCAwEAAaNjMGEwHQYDVR0OBBYEFDZh4QB8iAUJUYtEbEf/GkzJ6k8SMB8GA1Ud IwQYMBaAFDZh4QB8iAUJUYtEbEf/GkzJ6k8SMA8GA1UdEwEB/wQFMAMBAf8wDgYD VR0PAQH/BAQDAgIEMA0GCSqGSIb3DQEBCwUAA4ICAQBTNNZe5cuf8oiq+jV0itTG zWVhSTjOBEk2FQvh11J3o3lna0o7rd8RFHnN00q4hi6TapFhh4qaw/iG6Xg+xOan 63niLWIC5GOPFgPeYXM9+nBb3zZzC8ABypYuCusWCmt6Tn3+Pjbz3MTVhRGXuT/T QH4KGFY4PhvzAyXwdjTOCXID+aHud4RLcSySr0Fq/L+R8TWalvM1wJJPhyRjqRCJ erGtfBagiALzvhnmY7U1qFcS0NCnKjoO7oFedKdWlZz0YAfu3aGCJd4KHT0MsGiL Zez9WP81xYSrKMNEsDK+zK5fVzw6jA7cxmpXcARTnmAuGUeI7VVDhDzKeVOctf3a 0qQLwC+d0+xrETZ4r2fRGNw2YEs2W8Qj6oDcfPvq9JySe7pJ6wcHnl5EZ0lwc4xH 7Y4Dx9RA1JlfooLMw3tOdJZH0enxPXaydfAD3YifeZpFaUzicHeLzVJLt9dvGB0b HQLE4+EqKFgOZv2EoP686DQqbVS1u+9k0p2xbMA105TBIk7npraa8VM0fnrRKi7w lZKwdH+aNAyhbXRW9xsnODJ+g8eF452zvbiKKngEKirK5LGieoXBX7tZ9D1GNBH2 Ob3bKOwwIWdEFle/YF/h6zWgdeoaNGDqVBrLr2+0DtWoiB1aDEjLWl9FmyIUyUm7 mD/vFDkzF+wm7cyWpQpCVQ== -----END CERTIFICATE-----,-----BEGIN CERTIFICATE----- MIIFHDCCAwSgAwIBAgIJAPHBcqaZ6vUdMA0GCSqGSIb3DQEBCwUAMBsxGTAXBgNV BAUTEGY5MjAwOWU4NTNiNmIwNDUwHhcNMjIwMzIwMTgwNzQ4WhcNNDIwMzE1MTgw NzQ4WjAbMRkwFwYDVQQFExBmOTIwMDllODUzYjZiMDQ1MIICIjANBgkqhkiG9w0B AQEFAAOCAg8AMIICCgKCAgEAr7bHgiuxpwHsK7Qui8xUFmOr75gvMsd/dTEDDJdS Sxtf6An7xyqpRR90PL2abxM1dEqlXnf2tqw1Ne4Xwl5jlRfdnJLmN0pTy/4lj4/7 tv0Sk3iiKkypnEUtR6WfMgH0QZfKHM1+di+y9TFRtv6y//0rb+T+W8a9nsNL/ggj nar86461qO0rOs2cXjp3kOG1FEJ5MVmFmBGtnrKpa73XpXyTqRxB/M0n1n/W9nGq C4FSYa04T6N5RIZGBN2z2MT5IKGbFlbC8UrW0DxW7AYImQQcHtGl/m00QLVWutHQ oVJYnFPlXTcHYvASLu+RhhsbDmxMgJJ0mcDpvsC4PjvB+TxywElgS70vE0XmLD+O JtvsBslHZvPBKCOdT0MS+tgSOIfga+z1Z1g7+DVagf7quvmag8jfPioyKvxnK/Eg sTUVi2ghzq8wm27ud/mIM7AY2qEORR8Go3TVB4HzWQgpZrt3i5MIlCaY504LzSRi igHCzAPlHws+W0rB5N+er5/2pJKnfBSDiCiFAVtCLOZ7gLiMm0jhO2B6tUXHI/+M RPjy02i59lINMRRev56GKtcd9qO/0kUJWdZTdA2XoS82ixPvZtXQpUpuL12ab+9E aDK8Z4RHJYYfCT3Q5vNAXaiWQ+8PTWm2QgBR/bkwSWc+NpUFgNPN9PvQi8WEg5Um AGMCAwEAAaNjMGEwHQYDVR0OBBYEFDZh4QB8iAUJUYtEbEf/GkzJ6k8SMB8GA1Ud IwQYMBaAFDZh4QB8iAUJUYtEbEf/GkzJ6k8SMA8GA1UdEwEB/wQFMAMBAf8wDgYD VR0PAQH/BAQDAgIEMA0GCSqGSIb3DQEBCwUAA4ICAQB8cMqTllHc8U+qCrOlg3H7 174lmaCsbo/bJ0C17JEgMLb4kvrqsXZs01U3mB/qABg/1t5Pd5AORHARs1hhqGIC W/nKMav574f9rZN4PC2ZlufGXb7sIdJpGiO9ctRhiLuYuly10JccUZGEHpHSYM2G tkgYbZba6lsCPYAAP83cyDV+1aOkTf1RCp/lM0PKvmxYN10RYsK631jrleGdcdkx oSK//mSQbgcWnmAEZrzHoF1/0gso1HZgIn0YLzVhLSA/iXCX4QT2h3J5z3znluKG 1nv8NQdxei2DIIhASWfu804CA96cQKTTlaae2fweqXjdN1/v2nqOhngNyz1361mF mr4XmaKH/ItTwOe72NI9ZcwS1lVaCvsIkTDCEXdm9rCNPAY10iTunIHFXRh+7KPz lHGewCq/8TOohBRn0/NNfh7uRslOSZ/xKbN9tMBtw37Z8d2vvnXq/YWdsm1+JLVw n6yYD/yacNJBlwpddla8eaVMjsF6nBnIgQOf9zKSe06nSTqvgwUHosgOECZJZ1Eu zbH4yswbt02tKtKEFhx+v+OTge/06V+jGsqTWLsfrOCNLuA8H++z+pUENmpqnnHo vaI47gC+TNpkgYGkkBT6B/m/U01BuOBBTzhIlMEZq9qkDWuM2cA5kW5V3FJUcfHn w1IdYIg2Wxg7yHcQZemFQg== -----END CERTIFICATE-----
 android:bool/config_biometricFrrNotificationEnabled = true
@@ -21,6 +59,20 @@ android:string/face_recalibrate_notification_title = Please re-enroll your face
 android:string/safety_protection_display_text = "<font face=\"google-sans">Protected by </font><font face="google-sans-medium">Android</font>"
 android:string/scCellularNetworkSecurityLearnMore = "https://support.google.com/android?p=cellular_security"
 android:string/vendor_required_attestation_revocation_list_url = https://android.googleapis.com/attestation/status
+com.google.android.devicelockcontroller/DeviceLockResources:string-array/lock_task_allowlist = com.google.android.gms,com.google.android.apps.restore
+com.google.android.devicelockcontroller/DeviceLockResources:integer/check_in_server_port_number = 443
+com.google.android.devicelockcontroller/DeviceLockResources:integer/device_id_type_bitmap = 3
+com.google.android.devicelockcontroller/DeviceLockResources:integer/finalize_server_port_number = 443
+com.google.android.devicelockcontroller/DeviceLockResources:string/check_in_server_host_name = devicelockcheckin-pa.googleapis.com
+com.google.android.devicelockcontroller/DeviceLockResources:string/finalize_server_host_name = devicelockfinalize-pa.googleapis.com
+com.google.android.healthconnect.controller/HealthConnectStyles:integer/gravity_bottom = 80
+com.google.android.healthconnect.controller/HealthConnectStyles:integer/gravity_center = 17
+com.google.android.healthconnect.controller/HealthConnectStyles:integer/gravity_start = 8388611
+com.google.android.healthconnect.controller/HealthConnectStyles:integer/visibility_gone = 2
+com.google.android.healthconnect.controller/HealthConnectStyles:integer/visibility_visible = 0
+com.google.android.healthconnect.controller/HealthConnectStyles:string/overlay_config_headlineFontFamily = google-sans
+com.google.android.providers.media.module/MediaProviderConfig:string/config_default_cloud_media_provider_package = com.google.android.apps.photos
+com.google.android.providers.media.module/MediaProviderConfig:string/config_default_cloud_provider_authority = com.google.android.apps.photos.cloudpicker
 com.android.systemui:string/reminder_description = Set a reminder
 com.android.systemui:string/saved_status_description = Unsave screenshot
 com.android.systemui:string/saving_status_description = Saving
@@ -61,6 +113,7 @@ com.android.pixeldisplayservice:dimen/config_lbe_lux_switch_threshold = 1
 com.android.pixeldisplayservice:dimen/config_za_compensation_brightness_enter_threshold = 0.4
 com.android.pixeldisplayservice:integer/config_ambient_brightness_changed_debounce_ms = 500
 com.android.pixeldisplayservice:integer/config_compensation_filter_horizon = 1500
+com.google.android.apps.pixel.support:bool/config_show_touchscreen_diagnostics = true
 com.android.settings:bool/config_adaptive_alert_vibration_enabled = true
 com.android.settings:bool/config_early_screen_timeout_detector_enabled = true
 com.android.settings:dimen/face_preview_scale = 0.75
@@ -89,6 +142,7 @@ com.android.settings:string/security_settings_fingerprint_enroll_introduction_ti
 com.android.settings:string/security_settings_fingerprint_enroll_introduction_title_unlock_disabled = Pixel Imprint
 com.android.settings:string/security_settings_fingerprint_preference_title = Fingerprint Unlock
 com.android.settings:string/suggested_fingerprint_lock_settings_summary = Use Pixel Imprint to unlock your phone
+com.google.android.storagemanager:bool/config_hspa_data_distinguishable = true
 com.android.systemui:integer-array/config_nfc_conflict_with_usb_audio_productid = 20532
 com.android.systemui:integer-array/config_nfc_conflict_with_usb_audio_vendorid = 6353
 com.android.systemui:string-array/config_pluginAllowlist = com.android.systemui,com.android.systemui.plugin.globalactions.wallet,com.android.systemui.clocks,com.android.systemui.clocks.debug,com.android.systemui.clocks.bignum,com.android.systemui.clocks.calligraphy,com.android.systemui.clocks.flex,com.android.systemui.clocks.growth,com.android.systemui.clocks.handwritten,com.android.systemui.clocks.inflate,com.android.systemui.clocks.metro,com.android.systemui.clocks.numoverlap,com.android.systemui.clocks.weather
@@ -108,6 +162,7 @@ com.android.phone:bool/hac_enabled = true
 com.android.phone:bool/vvm3_enabled = true
 com.android.phone:integer/config_metrics_pull_cooldown_millis = 18000000
 com.android.server.telecom:bool/grant_location_permission_enabled = true
+com.android.providers.telephony:string/apn_source_service = com.google.android.carrier/.ApnSourceService
 com.android.traceur:bool/config_hspa_data_distinguishable = true
 com.android.settings:string/security_settings_fingerprint_bad_calibration = Visit a repair provider or g.co/pixel/fingerprintunlock.
 com.android.settings:string/security_settings_fingerprint_enroll_finish_message = Fingerprint Unlock improves the more you use it to unlock your phone or verify it’s you in apps
@@ -162,6 +217,7 @@ android:bool/config_allowDisablingAssistDisclosure = true
 android:bool/config_honor_data_retry_timer_for_emergency_network = true
 android:bool/config_keyboardVibrationSettingsSupported = true
 android:bool/config_refreshRateSynchronizationEnabled = true
+android:bool/config_repairModeSupported = true
 android:bool/config_ringtoneVibrationSettingsSupported = true
 android:dimen/config_keyboardHapticFeedbackFixedAmplitude = 0.62
 android:dimen/navigation_bar_gesture_larger_height = 110dp
@@ -174,6 +230,10 @@ android:integer/config_screenTimeoutOverride = 10000
 android:string/config_qualified_networks_service_package = com.android.qns
 android:string/fingerprint_error_bad_calibration = Can’t use fingerprint sensor. Visit a repair provider or g.co/pixel/fingerprintunlock
 android:string/fingerprint_recalibrate_notification_content = Visit a repair provider or g.co/pixel/fingerprintunlock
+com.android.permissioncontroller/PermissionControllerStyles:string/config_headlineFontFamily = google-sans
+com.android.permissioncontroller/PermissionControllerStyles:string/data_sharing_help_center_link = "https://support.google.com/android?p=data_sharing"
+com.android.permissioncontroller/PermissionControllerStyles:string/help_app_permissions = https://support.google.com/googleplay/answer/6270602
+com.android.permissioncontroller/PermissionControllerStyles:string/help_url_action_disabled_by_restricted_settings = "https://support.google.com/android/?p=restricted_settings"
 com.android.networkstack/NetworkStackConfig:bool/config_force_enable_apfv6_nd_offload = true
 com.android.networkstack.tethering/TetheringConfig:string-array/config_tether_ncm_regexs = "ncm\\d"
 com.android.networkstack.tethering/TetheringConfig:string-array/config_tether_usb_regexs = "rndis\\d"
